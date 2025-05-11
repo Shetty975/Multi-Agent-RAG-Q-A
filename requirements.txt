@@ -3,4 +3,4 @@ openai
 faiss-cpu
 streamlit
 python-docx
-
+PyPDF2
