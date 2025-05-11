@@ -1,0 +1,11 @@
+Q: What is our core product?
+A: Our core product is a cloud-based task management platform designed for remote teams.
+
+Q: What platforms are supported?
+A: Our app is available on web, iOS, and Android.
+
+Q: How is user data protected?
+A: We use 256-bit AES encryption and follow GDPR compliance standards.
+
+Q: Can I export my tasks?
+A: Yes, users can export tasks to CSV and PDF formats from the settings panel

@@ -1,0 +1,9 @@
+Product Name: TitanTime X2 Smartwatch
+
+Display: 1.4-inch AMOLED, 400x400 resolution  
+Battery Life: Up to 7 days on a single charge  
+Water Resistance: IP68 rated (up to 1.5m for 30 minutes)  
+Compatibility: Android 8+ and iOS 12+  
+Sensors: Heart rate monitor, SpO2, GPS, step counter  
+Charging Time: 90 minutes  
+Special Features: Sleep tracking, music control, voice assistant
