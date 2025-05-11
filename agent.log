@@ -1,0 +1,193 @@
+2025-05-10 20:51:01,289 - Query: 'hlo' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 20:52:25,588 - Query: 'What is 5 plus 3?' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:52:34,361 - Query: '5 times 9' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:53:01,418 - Query: 'define ai' | Route: \U0001f4da Definition via Oxford API
+2025-05-10 20:53:27,282 - Query: 'what is machine learning' | Route: \U0001f4da Definition via Oxford API
+2025-05-10 20:53:49,408 - Query: 'what is ml' | Route: \U0001f4da Definition via Oxford API
+2025-05-10 20:55:13,811 - Query: 'what is ml' | Route: \U0001f4da Definition via Oxford API (Error)
+2025-05-10 20:55:21,392 - Query: '5 times 9' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:55:29,073 - Query: '3 times 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:57:08,653 - Query: '3 times 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:57:15,970 - Query: '5 times 9' | Route: \U0001f9ee Calculator Tool
+2025-05-10 20:58:17,566 - Query: '3 times 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 21:00:39,036 - Query: '3 times 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 21:00:41,760 - Query: '3 times 5' | Route: \U0001f9ee Calculator Tool
+2025-05-10 21:00:44,055 - Query: '3 times 7' | Route: \U0001f9ee Calculator Tool
+2025-05-10 21:02:22,910 - Query: 'if diameter is 12 then calculate radius of a circle' | Route: \U0001f9ee Calculator Tool (Error)
+2025-05-10 22:36:54,617 - Query: '3 times 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 22:37:32,491 - Query: 'Solve for x: 3 \U0001d465 2 + 5 \U0001d465 \u2212 2 = 0 3x  2  +5x\u22122=0' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 22:37:51,319 - Query: 'Solve the system of equations:  \U0001d465 + \U0001d466 = 10 2 \U0001d465 \u2212 3 \U0001d466 = 5 x+y=10 2x\u22123y=5' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 22:41:07,761 - Query: '2 power 1' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 22:41:12,081 - Query: '2 power 2' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 22:41:16,632 - Query: '5 plus 3' | Route: \U0001f9ee Calculator Tool
+2025-05-10 22:41:37,033 - Query: 'if diameter is 14 then clauclate radius of a circle' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 22:41:43,383 - Query: 'if diameter is 14 then claculate radius of a circle' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-10 23:09:03,899 - Query: 5 times 9
+Route: \U0001f9ee Calculator Tool (Groq API)
+
+2025-05-10 23:10:42,611 - Error: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2025-05-10 23:10:42,611 - Query: 5 times 9
+Route: \U0001f9ee Calculator Tool (Groq API)
+
+2025-05-10 23:12:32,142 - Error: 400 Client Error: Bad Request for url: https://api.groq.com/openai/v1/chat/completions
+2025-05-10 23:12:32,142 - Query: calculate 5 times 9
+Route: \U0001f9ee Calculator Tool (Groq API)
+
+2025-05-10 23:13:02,466 - Query: '5 times 9' | Route: \U0001f9ee Calculator Tool (Wolfram Alpha)
+2025-05-10 23:13:51,806 - Query: '5 times 9' | Route: \U0001f9ee Calculator Tool (Wolfram Alpha)
+2025-05-10 23:15:55,234 - Query: '2 plus 3' | Route: \U0001f9ee Calculator Tool (Wolfram Alpha)
+2025-05-10 23:17:03,709 - Query: '2 plus 3' | Route: \U0001f9ee Calculator (Wolfram Alpha)
+2025-05-10 23:20:10,876 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram Alpha)
+2025-05-10 23:20:22,394 - Query: '3 plus 2' | Route: \U0001f9ee Calculator (Wolfram Alpha)
+2025-05-10 23:20:37,690 - Query: '3x+5y=0 solve the equation' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 00:13:06,342 - Query: 'What is the price of the product?' | Route: \U0001f4da Dictionary (Oxford API - Not Found)
+2025-05-11 00:13:15,763 - Query: 'what is ml' | Route: \U0001f4da Dictionary (Oxford API - Not Found)
+2025-05-11 00:13:56,108 - Query: 'What is the area of a circle with radius 5 cm?' | Route: \U0001f4da Dictionary (Oxford API - Not Found)
+2025-05-11 00:14:11,020 - Query: 'calculate the area of a circle with radius 5 cm?' | Route: \U0001f9ee Calculator (Wolfram Alpha)
+2025-05-11 00:14:27,034 - Query: 'A circle has a diameter of 10 cm. What is its radius' | Route: \U0001f4da Dictionary (Oxford API - Not Found)
+2025-05-11 00:19:37,174 - Query: 'What is sin(30°)?' | Route: \U0001f4da Dictionary (Oxford API - Not Found)
+2025-05-11 00:19:42,116 - Query: ' sin(30°)?' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 00:19:45,922 - Query: ' sin(30°)' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 00:26:01,107 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:01,108 - Retrying request to /chat/completions in 0.402656 seconds
+2025-05-11 00:26:01,897 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:01,898 - Retrying request to /chat/completions in 0.861108 seconds
+2025-05-11 00:26:03,075 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:03,081 - Query: What is the price of the product? | Route: \u274c Error
+2025-05-11 00:26:09,296 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:09,296 - Retrying request to /chat/completions in 0.390774 seconds
+2025-05-11 00:26:10,015 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:10,016 - Retrying request to /chat/completions in 0.794350 seconds
+2025-05-11 00:26:11,131 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:11,132 - Query: 5 times 9 | Route: \u274c Error
+2025-05-11 00:26:27,217 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:27,217 - Retrying request to /chat/completions in 0.467387 seconds
+2025-05-11 00:26:28,033 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:28,034 - Retrying request to /chat/completions in 0.913425 seconds
+2025-05-11 00:26:29,254 - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2025-05-11 00:26:29,256 - Query: if diameter is 12 then calculate radius of a circle | Route: \u274c Error
+2025-05-11 00:27:21,185 - Query: '5+6' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 00:27:32,857 - Query: 'define ml' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 00:31:18,855 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 00:31:26,680 - Query: 'What is the price of the product?' | Route: \U0001f4da Dictionary (Error)
+2025-05-11 00:31:36,186 - Query: 'what is ml' | Route: \U0001f4da Dictionary (Error)
+2025-05-11 00:31:48,731 - Query: 'what is machine learning' | Route: \U0001f4da Dictionary (Error)
+2025-05-11 00:32:03,547 - Query: 'define machine learning' | Route: \U0001f4da Dictionary (Error)
+2025-05-11 00:33:27,970 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-11 00:33:27,971 - Query: 'What is the price of the product?' | Route: \U0001f4da Dictionary (Fallback - Groq LLM)
+2025-05-11 00:33:34,534 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 00:33:43,652 - Query: 'what is ai' | Route: \U0001f4da Dictionary (Oxford API)
+2025-05-11 00:33:55,018 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-11 00:33:55,019 - Query: 'what is machine ' | Route: \U0001f4da Dictionary (Fallback - Groq LLM)
+2025-05-11 00:34:09,144 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-11 00:34:09,144 - Query: 'what is deep learning' | Route: \U0001f4da Dictionary (Fallback - Groq LLM)
+2025-05-11 00:35:33,437 - Query: 'what is os' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:35:44,995 - Query: 'what is operating system' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:35:51,541 - Query: 'what is ai' | Route: \U0001f4da Dictionary (Oxford API)
+2025-05-11 00:35:59,538 - Query: 'what is melosis' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:36:13,986 - Query: 'what is go' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:36:24,328 - Query: 'what is deep learning' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:38:01,396 - Query: 'what is deep learning' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:38:16,419 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Fallback - Wolfram Alpha)
+2025-05-11 00:39:29,253 - Query: 'define os' | Route: \U0001f4da Dictionary (Wolfram Alpha)
+2025-05-11 00:39:38,368 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-05-11 00:39:38,368 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Fallback - Groq LLM)
+2025-05-11 00:41:21,690 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 00:47:53,291 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 00:47:53,305 - Query: 'what is deep learning' | Route: \U0001f4da Dictionary (Oxford Fallback \u2192 Groq API)
+2025-05-11 00:48:15,491 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 00:48:15,491 - Query: 'define machine learning' | Route: \U0001f4da Dictionary (Oxford Fallback \u2192 Groq API)
+2025-05-11 00:48:27,881 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-11 00:48:27,884 - Query: 'define loc' | Route: \U0001f4da Dictionary (Oxford Fallback \u2192 Groq API)
+2025-05-11 00:49:46,626 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-11 00:49:52,764 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-11 00:50:00,025 - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-05-11 13:17:22,633 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 13:17:37,096 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 13:34:52,543 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 13:35:00,032 - Query: '2 plus 3' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 13:35:13,777 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 13:35:27,665 - Query: 'define machine learning' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 13:35:33,854 - Query: 'What is the price of the product?' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-11 13:35:52,546 - Query: ']' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 13:39:42,130 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 13:39:49,962 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 13:40:16,322 - Query: 'what is ceasefire' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 13:47:51,777 - Loading faiss with AVX2 support.
+2025-05-11 13:47:52,293 - Successfully loaded faiss with AVX2 support.
+2025-05-11 13:47:52,363 - Failed to load GPU Faiss: name 'GpuIndexIVFFlat' is not defined. Will not load constructor refs for GPU indexes. This is only an error if you're trying to use GPU Faiss.
+2025-05-11 20:36:14,250 - From C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+2025-05-11 20:36:15,155 - Use pytorch device_name: cpu
+2025-05-11 20:36:15,155 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 20:36:19,431 - From C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-05-11 20:44:15,003 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 20:44:27,659 - Query: '3 plus 4' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 20:44:36,359 - Query: 'define machine learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 21:16:31,233 - Query: 'what are the reuirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 21:21:09,936 - Use pytorch device_name: cpu
+2025-05-11 21:21:09,936 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:23:19,913 - Use pytorch device_name: cpu
+2025-05-11 21:23:19,913 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:27:10,860 - Use pytorch device_name: cpu
+2025-05-11 21:27:10,860 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:28:05,794 - Use pytorch device_name: cpu
+2025-05-11 21:28:05,794 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:28:22,962 - Use pytorch device_name: cpu
+2025-05-11 21:28:22,962 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:30:45,236 - Use pytorch device_name: cpu
+2025-05-11 21:30:45,236 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 21:31:10,217 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 21:31:21,314 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 22:31:10,418 - Use pytorch device_name: cpu
+2025-05-11 22:31:10,419 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 22:31:20,190 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 22:31:37,969 - Query: 'what are the requirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 22:34:57,294 - Use pytorch device_name: cpu
+2025-05-11 22:34:57,294 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 22:35:09,082 - Query: '5 times 9' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 22:35:25,734 - Query: 'what are the requirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 22:44:53,579 - Use pytorch device_name: cpu
+2025-05-11 22:44:53,579 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 22:45:02,582 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 22:45:17,075 - Query: 'what are requirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 23:29:40,559 - Query: 'what are requirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 23:35:41,713 - Use pytorch device_name: cpu
+2025-05-11 23:35:41,713 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:37:32,697 - Use pytorch device_name: cpu
+2025-05-11 23:37:32,697 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:39:05,167 - Use pytorch device_name: cpu
+2025-05-11 23:39:05,168 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:40:03,705 - Use pytorch device_name: cpu
+2025-05-11 23:40:03,706 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:41:38,985 - Use pytorch device_name: cpu
+2025-05-11 23:41:38,985 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:43:22,473 - Use pytorch device_name: cpu
+2025-05-11 23:43:22,474 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:43:53,370 - Use pytorch device_name: cpu
+2025-05-11 23:43:53,370 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:44:54,044 - Use pytorch device_name: cpu
+2025-05-11 23:44:54,044 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:45:30,303 - Use pytorch device_name: cpu
+2025-05-11 23:45:30,303 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:46:03,859 - Use pytorch device_name: cpu
+2025-05-11 23:46:03,859 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:47:31,692 - Use pytorch device_name: cpu
+2025-05-11 23:47:31,692 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:47:39,119 - Query: 'define deep learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
+2025-05-11 23:47:48,844 - Query: '5 times 3' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 23:47:53,147 - Query: '5 times 3' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-11 23:48:02,413 - Query: 'what are requirements' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-11 23:59:05,313 - Use pytorch device_name: cpu
+2025-05-11 23:59:05,313 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-11 23:59:09,737 - From C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-05-12 00:02:41,821 - Use pytorch device_name: cpu
+2025-05-12 00:02:41,821 - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-05-12 00:02:45,771 - From C:\Users\hp\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\LocalCache\local-packages\Python311\site-packages\keras\src\backend\common\global_state.py:82: The name tf.reset_default_graph is deprecated. Please use tf.compat.v1.reset_default_graph instead.
+
+2025-05-12 00:02:55,948 - Query: 'LLM' | Route: \U0001f4d6 RAG \u2192 LLM (Error)
+2025-05-12 00:03:00,410 - Query: '5 times 3' | Route: \U0001f9ee Calculator (Wolfram \u2192 Groq Fallback)
+2025-05-12 00:03:10,960 - Query: 'define LLM' | Route: \U0001f4da Dictionary (Not Found)
+2025-05-12 00:03:21,406 - Query: 'define machine learning' | Route: \U0001f4da Dictionary (Free Dictionary API)
