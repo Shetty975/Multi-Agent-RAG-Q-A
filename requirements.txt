@@ -4,3 +4,4 @@ faiss-cpu
 streamlit
 python-docx
 PyPDF2
+qroq
