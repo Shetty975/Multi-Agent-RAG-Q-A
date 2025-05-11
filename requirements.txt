@@ -6,3 +6,5 @@ python-docx
 PyPDF2
 langchain
 langchain-groq
+sentence-transformers
+
